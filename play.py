@@ -93,14 +93,14 @@ def split_screen_to_question_and_options():
 option_names = ['A','B','C']
 
 def print_scores(scores,method):
-    print method+'\n-----------------------------'
-    print "Most relevant : "+ str(option_names[scores.index(max(scores))])
-    print "Least relevant : "+ str(option_names[scores.index(min(scores))])
+    print (method+'\n-----------------------------')
+    print ("Most relevant : "+ str(option_names[scores.index(max(scores))]))
+    print ("Least relevant : "+ str(option_names[scores.index(min(scores))]))
 
 
 if __name__ == '__main__':
     while True:
-        a = raw_input("Wait for the next question and press Enter key instantly when it's displayed\n")
+        a = input("Wait for the next question and press Enter key instantly when it's displayed\n")
         take_screenshot()
         split_screen_to_question_and_options()
         image_filenames = ['question.png','1.png','2.png','3.png']
