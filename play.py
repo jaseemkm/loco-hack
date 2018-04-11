@@ -100,7 +100,7 @@ def print_scores(scores,method):
 
 if __name__ == '__main__':
     while True:
-        a = input("Wait for the next question and press Enter key instantly when it's displayed\n")
+        a = raw_input("Wait for the next question and press Enter key instantly when it's displayed\n")
         take_screenshot()
         split_screen_to_question_and_options()
         image_filenames = ['question.png','1.png','2.png','3.png']
