@@ -10,7 +10,7 @@ Obtain required API keys from Google and replace them in the code
 2. GOOGLE_SEARCH_ENGINE_ID - [Custom search engine id](https://support.google.com/customsearch/answer/2630963?hl=en)
 
 Watch this video for furthe explaination on how to get it to work in your Android device.
-[Click here](https://youtu.be/GjImKbQf4Qg)
+[Click here](https://youtu.be/7dHTeOUEDps)
 
 
 
